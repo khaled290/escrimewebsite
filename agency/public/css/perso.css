@@ -1,0 +1,269 @@
+#header_bar
+{
+    background: #ffffff;
+    color: #0b4a07;
+    position: fixed;
+    /*width: 100%;*/
+    z-index: 10020;
+}
+
+/* ************************ CSS BOUTON DE RESEAUX SOCIAUX ************************ */
+#socialMedia
+{
+    cursor: pointer;
+    position:fixed;
+    top:30%;
+    width:10%;
+    height:	auto;
+    color: #FFFFFF;
+    z-index:9998;
+    display: none;
+    margin-left: 0;
+}
+
+#socialMedia ul
+{
+    list-style-type: none;
+}
+
+#socialMedia li
+{
+    margin-top: 20px;
+}
+.scroll{cursor: pointer;}
+
+/* ************************ CSS MENU ************************ */
+
+.navbar-inverse.navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus
+{
+    background-color: #195ea7;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    color:#0b4a07;
+}
+.navbar .navbar-default .navbar-custom .navbar-fixed-top
+{
+    color: #0b4a07;
+}
+a >.dropdown-menu
+{
+    border-radius: 10px;
+    padding: 20px;
+    color: #0b4a07;
+    background: #ffffff;
+}
+.menu
+{
+    font-size: 18px;
+}
+
+.dropdown-toggle:hover
+{
+    background: #0b4a07;
+}
+
+.form > input, .btn
+{
+    margin: 10px;
+}
+
+/* ************************ CSS Connexion ************************ */
+
+#logout, .login
+{
+    float: right;
+}
+#login, #mdp
+{
+    padding: 10px;
+}
+/* *** BOUTON SE CONNCECTER Rectangle Out *** */
+.hvr-rectangle-out
+{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: #e1e1e1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.hvr-rectangle-out:before
+{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #195ea7;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active
+{
+    color: white;
+}
+.hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before
+{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/* ************************ HEADER INDEX ************************ */
+
+.intro-header
+{
+    margin-top: -10px;
+}
+.site-heading > h1
+{
+    color: #195ea7;
+}
+.site-heading > h2
+{
+    color: #0b4a07;
+}
+
+
+/* ************************ HEADER OTHERS ************************ */
+
+.embleme
+{
+    margin-top: 10px;
+}
+.titleOthersHead h1, span
+{
+    color: #0b4a07;
+}
+.titleOthersHead h2
+{
+    color: #195ea7;
+}
+.bigSize
+{
+    max-width: 500px;
+    margin: 15px auto;
+    border-width: 2px;
+    border-color: black;
+}
+
+
+/* ************************ PAGE INDEX ************************ */
+
+.post-title
+{
+    color: #195ea7;
+}
+.post-subtitle
+{
+    color: #0b4a07;
+}
+
+/* ************************ PAGE PRESENTATION ************************ */
+
+.highTitle
+{
+    color: #0b4a07;
+}
+
+.middleTitle
+{
+    margin-top: 10px;
+    color: #195ea7;
+}
+
+/* ************************ PAGE ENTRAINEMENT ************************ */
+
+.panel{margin-top: 50px;}
+
+/* ************************ PAGE ARMES ************************ */
+
+.text
+{
+    margin: 10px;
+    padding: 15px;
+}
+.circle
+{
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textCircleHover
+{
+    font-size: 18px;
+}
+
+.secondContainer
+{
+    margin-top: 100px;
+}
+.title
+{
+    margin-bottom: 50px;
+}
+/* ************************ PAGE COTISATION & REGLEMENT ************************ */
+
+.devise
+{
+    border: 2px solid #080808;
+    text-align: center;
+    padding: 8px;
+    margin: 50px;
+}
+h2
+{
+    font-size: 25px;
+}
+
+/* ************************ PAGE ALBUM ************************ */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+/* ************************ FOOTER ************************ */
+
+#footerperso
+{
+    background-color: #4c4c4c;
+    min-height:100px;
+    color: #9a9a9a;
+    text-align: center;
+}
+.linkFooter
+{
+    color: #9a9a9a;
+}
+.linkFooter:hover{
+    color: #0b4a07;
+}
+h4
+{
+    text-decoration: underline;
+}
+#scrollToTop img {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
